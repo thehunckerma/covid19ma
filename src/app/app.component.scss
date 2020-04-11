@@ -1,0 +1,28 @@
+.w {
+    width: 47%;
+}
+@media screen and (max-width: 900px) {
+    .w {
+        min-width: 90vw;
+    }
+}
+.wrap-col{
+    text-align: center;
+}
+.wrap-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.m-a {
+    margin: auto;
+    margin-top: 40px;
+    width: 75%;
+}
+.m-a-b {
+    margin-top: 40px;
+}
+.b3d{
+ margin: 10px 20px;
+}
